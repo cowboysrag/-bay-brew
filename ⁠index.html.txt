@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay Brew | باي برو</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tahoma', Arial, sans-serif;
+        }
+        body {
+            background-color: #fcf9f2;
+            color: #3b2f2f;
+            padding: 15px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #f0e6d2;
+            padding-bottom: 15px;
+        }
+        .header img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #d4a373;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            font-size: 24px;
+            color: #5c4033;
+        }
+        .category {
+            margin-bottom: 25px;
+        }
+        .category-title {
+            background-color: #d4a373;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5px;
+            border-bottom: 1px dashed #e6ccb2;
+            font-size: 15px;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+            color: #4a3b32;
+        }
+        .item-price {
+            color: #bc6c25;
+            font-weight: bold;
+            background: #fefae0;
+            padding: 3px 10px;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 13px;
+            color: #8c7a6b;
+            border-top: 1px solid #f0e6d2;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <!-- تم استخدام اللوجو الخاص بك هنا -->
+        <img src="image.png" alt="Bay Brew Logo">
+        <h1>Bay Brew | باي برو</h1>
+    </div>
+
+    <!-- المشروبات الباردة -->
+    <div class="category">
+        <div class="category-title">المشروبات الباردة (Cold Drinks)</div>
+        <div class="menu-item"><span class="item-name">سبانيش لاتيه</span><span class="item-price">18 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">بستاشيو لاتيه</span><span class="item-price">16 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس لاتيه</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس موكا</span><span class="item-price">16 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس فرابتشينو</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس شوكليت</span><span class="item-price">16 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس أمريكانو</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس باشن</span><span class="item-price">16 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس تي</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">آيس باي برو (توقيع الكافيه)</span><span class="item-price">20 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">عصير برتقال طازج</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">عصير ليمون</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ليمون بالنعناع</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">عصير مانجو</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">عصير فراولة</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">عصير جوافة</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كركديه</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ماتشا سادة</span><span class="item-price">13 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ماتشا بالفراولة</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ماء</span><span class="item-price">2 ر.س</span></div>
+    </div>
+
+    <!-- المشروبات الحارة -->
+    <div class="category">
+        <div class="category-title">المشروبات الحارة (Hot Drinks)</div>
+        <div class="menu-item"><span class="item-name">اسبريسو</span><span class="item-price">11 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ماكياتو</span><span class="item-price">12 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كورتادو</span><span class="item-price">13 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">فلات وايت</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كابتشينو</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">لاتيه</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">سبانيش لاتيه حار</span><span class="item-price">16 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">هوت شوكليت</span><span class="item-price">12 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">أمريكانو</span><span class="item-price">11 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">قهوة تركي</span><span class="item-price">12 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">قهوة تركي بالحليب</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">قهوة فرنسساوي</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">قهوة سعودية (فنجان)</span><span class="item-price">8 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">دلة قهوة سعودية</span><span class="item-price">17 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">شاي أحمر</span><span class="item-price">8 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">شاي أخضر</span><span class="item-price">7 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">براد شاي</span><span class="item-price">17 ر.س</span></div>
+    </div>
+
+    <!-- إسموزي -->
+    <div class="category">
+        <div class="category-title">إسموزي (Smoothies)</div>
+        <div class="menu-item"><span class="item-name">اختيارك من (بطيخ، مانجو، فراولة، بلوبيري، أو باشن)</span><span class="item-price">15 ر.س</span></div>
+    </div>
+
+    <!-- مشروبات غازية وموهيتو -->
+    <div class="category">
+        <div class="category-title">مشروبات غازية وموهيتو (Soft Drinks & Mojitos)</div>
+        <div class="menu-item"><span class="item-name">موهيتو بلوبيري</span><span class="item-price">13 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">موهيتو بطيخ</span><span class="item-price">13 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">موهيتو فراولة</span><span class="item-price">13 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">موهيتو مكس</span><span class="item-price">13 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كودرد سادة</span><span class="item-price">12 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كودرد بالنكهة</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">سلاش كودرد</span><span class="item-price">15 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">سفن أب</span><span class="item-price">9 ر.س</span></div>
+    </div>
+
+    <!-- ميلك شيك -->
+    <div class="category">
+        <div class="category-title">ميلك شيك (Milkshake)</div>
+        <div class="menu-item"><span class="item-name">اختيارك من (فانيلا، شوكليت، اوريو، بلوبيري، فراولة، مانجو، جلاكسي، أو كيت كات)</span><span class="item-price">15 ر.س</span></div>
+    </div>
+
+    <!-- القهوة المقطرة -->
+    <div class="category">
+        <div class="category-title">القهوة المقطرة (Drip Coffee)</div>
+        <div class="menu-item"><span class="item-name">V60 بارد</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">V60 حار</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">قهوة اليوم (بارد)</span><span class="item-price">9 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">قهوة اليوم (حار)</span><span class="item-price">8 ر.س</span></div>
+    </div>
+
+    <!-- الساندوتشات -->
+    <div class="category">
+        <div class="category-title">الساندوتشات (Sandwiches)</div>
+        <div class="menu-item"><span class="item-name">كرواسون (سادة / جبنة بيضاء / جبنة صفراء / زعتر)</span><span class="item-price">11 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ساندوتش جبنة حلوم</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ساندوتش تونة</span><span class="item-price">14 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">ساندوتش فاهيتا دجاج</span><span class="item-price">15 ر.س</span></div>
+    </div>
+
+    <!-- الحلى -->
+    <div class="category">
+        <div class="category-title">الحلى (Desserts)</div>
+        <div class="menu-item"><span class="item-name">تيراميسو</span><span class="item-price">18 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كيك عسل</span><span class="item-price">18 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كيك جلاكسي</span><span class="item-price">19 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كيك ترافيل شوكليت</span><span class="item-price">19 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">مولتين كيك</span><span class="item-price">19 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">تشيز كيك توت</span><span class="item-price">18 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">تشيز كيك فراولة</span><span class="item-price">18 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">تشيز كيك كنافة</span><span class="item-price">18 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">سان سيباستيان</span><span class="item-price">19 ر.س</span></div>
+        <div class="menu-item"><span class="item-name">كوكيز</span><span class="item-price">11 ر.س</span></div>
+    </div>
+
+    <div class="footer">
+        Bay Brew Cafe © 2026 - جميع الحقوق محفوظة
+    </div>
+</div>
+
+</body>
+</html>
